@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url("../grafika/tlo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    max-width: 400px;
+    outline: none;
+    padding: 10px 20px;
+    padding-left: 70px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: rgb(100, 95, 95);
+}
+
+.input-wrap {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+}
+
+.icon-wrap {
+    position: absolute;
+    left: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-icon {
+    color: rgb(159, 151, 151);
+}
+
+.button-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: white;
+    background-color: #19a426;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+    max-width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+a {
+    display: inline-block;
+    color: #F5EDCE;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p.register-text {
+    color: #ECECEC;
+    text-align: center;
+}
