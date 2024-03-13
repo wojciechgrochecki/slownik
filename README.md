@@ -1,4 +1,4 @@
-###
+## Opis
 
 Aplikacja typu słownik zaimplementowana za pomocą PHP, MySQL, HTML5, CSS3.
 
